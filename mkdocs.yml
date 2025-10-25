@@ -4,8 +4,16 @@ theme:
   language: es
   features:
     - navigation.tabs
-    - navigation.sections
     - content.code.copy
     - toc.integrate
+
+plugins:
+  - search
+  - minify
+  - git-revision-date-localized:
+      locale: es
+
 nav:
   - Inicio: index.md
+  - Tipos de metales: tipos.md
+  - Propiedades: propiedades.md

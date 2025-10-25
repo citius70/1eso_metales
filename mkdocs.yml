@@ -1,4 +1,4 @@
-site_name: Proyecto Metales
+site_name: Materiales metálicos
 theme:
   name: material
   language: es
@@ -15,5 +15,6 @@ plugins:
 
 nav:
   - Inicio: index.md
+  - Conceptos generales: 1_conceptos.md
   - Tipos de metales: tipos.md
   - Propiedades: propiedades.md

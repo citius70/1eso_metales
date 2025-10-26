@@ -5,16 +5,31 @@ theme:
   features:
     - navigation.tabs
     - content.code.copy
-    - toc.integrate
+    - content.code.annotate
+    - toc.integrate # Integrar tabla de contenidos en la barra lateral
+    - content.diagrams  # habilita el soporte para Mermaid
+    - diagrams
 
 plugins:
   - search
   - minify
   - git-revision-date-localized:
       locale: es
+  - mermaid2
 
 nav:
   - Inicio: index.md
   - Conceptos generales: 1_conceptos.md
-  - Tipos de metales: tipos.md
-  - Propiedades: propiedades.md
+  - Origen y obtención: 2_origen.md
+  - Procesamiento de minerales: 3_procesamiento.md
+  - Clasificación de metales: 4_clasificacion.md
+  - Metales férricos: 5_ferricos.md
+  - Metales no férricos: 6_no_ferricos.md
+  - Técnicas de conformado: 7_tecnicas.md
+
+markdown_extensions:
+  - admonition # Extensiones para notas y advertencias
+  - pymdownx.superfences # Extensiones para bloques de código
+  - pymdownx.tabbed # Extensiones para pestañas
+  - pymdownx.snippets # Extensiones para fragmentos reutilizables
+  - pymdownx.details # Extensiones para detalles desplegables

@@ -1,4 +1,4 @@
-# Concepto y características generales de los metales
+# Concepto y características
 
 ## ¿Qué son los metales?
 

@@ -19,7 +19,8 @@ plugins:
 
 nav:
   - Inicio: index.md
-  - Conceptos generales: 1_conceptos.md
+  - Conceptos generales: 1_conceptos.
+  -   Actividades: 1_conceptos_ejercicios.md
   - Origen y obtención: 2_origen.md
   - Procesamiento de minerales: 3_procesamiento.md
   - Clasificación de metales: 4_clasificacion.md

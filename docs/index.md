@@ -1,3 +1,6 @@
+Faltan Actividades y imágenes
+
+
 # Estructura Definitiva para Apuntes de Materiales Metálicos - 1º ESO
 
 ## 1. Concepto y características generales

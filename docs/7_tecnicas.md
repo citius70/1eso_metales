@@ -71,7 +71,7 @@ La **extrusión** sirve para obtener **piezas alargadas** con una **sección uni
 
 
 
-## **Resumen visual:**  
+## **Resumen visual**
 
 | Técnica | Resultado principal | Ejemplo de producto |
 |----------|--------------------|--------------------|
